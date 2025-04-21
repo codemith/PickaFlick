@@ -9,8 +9,16 @@ import requests
 from sklearn.metrics.pairwise import cosine_similarity
 from src.model import MatrixFactorizationWithBias
 
+
 # 🔑 TMDB API Key
-TMDB_API_KEY = "019b145c812ea434399cbb74a37e2b24"  # ← Replace with your TMDB API key
+#TMDB_API_KEY = ""  # ← Replace with your TMDB API key
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
+
 
 # 🎞️ Fetch poster using TMDB title + year
 @st.cache_data(show_spinner=False)

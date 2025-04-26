@@ -1,7 +1,7 @@
 
 # PickaFlick: Personalized Movie Recommendation System
 
-**PickaFlick** is a personalized movie recommendation system that suggests movies based on your input using collaborative filtering. It features an interactive web interface built with Streamlit and integrates with the TMDB API to display movie posters for an enhanced user experience.
+**PickaFlick** is a personalized movie recommendation system that suggests movies based on your input using collaborative filtering. It features an interactive web interface built with Streamlit and integrates with the TMDB API to display movie posters for an enhanced user experience. Access - http://3.82.251.169:8501/
 
 ---
 
